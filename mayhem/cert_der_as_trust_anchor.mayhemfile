@@ -1,0 +1,7 @@
+project: webpki
+target: cert-der-as-trust-anchor
+
+cmds:
+  - cmd: /cert_der_as_trust_anchor
+  - cmd: /cert_der_as_trust_anchor_no_inst @@
+    libfuzzer: false
